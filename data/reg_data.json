@@ -1,0 +1,38 @@
+{
+  "reg_case_suc0": {
+    "reg_data": {
+      "scene": "1",
+      "username": "13800000025",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": 1,
+    "msg": "成功"
+  },
+  "reg_case_suc1": {
+    "reg_data": {
+      "scene": "1",
+      "username": "13800000026",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": 1,
+    "msg": "成功"
+  },
+  "reg_case_not_suc": {
+    "reg_data": {
+      "scene": "1",
+      "username": "我就不是手机号",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": -1,
+    "msg": "请用手机号或邮箱注册"
+  }
+}
